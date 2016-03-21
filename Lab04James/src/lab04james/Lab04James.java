@@ -15,7 +15,7 @@ public class Lab04James {
         
         System.out.println("Sexo Hombre (H) - Mujer (M) --> ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  
-        sexo = br.readLine();
+        sexo = br.readLine();   
         
         if (sexo.toLowerCase().equals("h")) {
             
